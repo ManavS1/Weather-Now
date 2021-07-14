@@ -1,2 +1,2 @@
-# Weather-Now - [Visit Now](https://weather-always.netlify.app/)
+# Weather-Now - [Visit Now](https://weather-daily.netlify.app/)
 
