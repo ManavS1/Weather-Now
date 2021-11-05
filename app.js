@@ -50,22 +50,22 @@ function showReport(weather) {
   weatherStatus.textContent = `${weather.weather[0].main}`;
 
   //deciding background image according to weather status
-  if (weather.weather[0].main == "Clouds") {
-    body.style.backgroundImage = "url('img/clouds.jpg')";
-  } else if (weather.weather[0].main == "Haze") {
-    body.style.backgroundImage = "url('img/foggy-haze.jpg')";
-  } else if (weather.weather[0].main == "Thunderstorm") {
-    body.style.backgroundImage = "url('img/thunderstorm.jpg')";
-  } else if (weather.weather[0].main == "Mist") {
-    body.style.backgroundImage = "url('img/mist.jpg')";
-  } else if (weather.weather[0].main == "Rain") {
-    body.style.backgroundImage = "url('img/rain.jpg')";
-  } else if (weather.weather[0].main == "Clear") {
-    body.style.backgroundImage = "url('img/clear.jpg')";
-  } else if (weather.weather[0].main == "Smoke") {
-    body.style.backgroundImage = "url('img/foggy-haze.jpg')";
+  if (weather.weather[0].main === "Clouds") {
+    body.style.backgroundImage = "url('https://i.ibb.co/5LSqpLn/clouds.jpg')";
+  } else if (weather.weather[0].main === "Haze") {
+    body.style.backgroundImage = "url('https://i.ibb.co/K9NCqQF/foggy-haze.jpg')";
+  } else if (weather.weather[0].main === "Thunderstorm") {
+    body.style.backgroundImage = "url('https://i.ibb.co/9NccwbZ/thunderstorm.jpg')";
+  } else if (weather.weather[0].main === "Mist") {
+    body.style.backgroundImage = "url('https://i.ibb.co/h88wcjp/mist.jpg')";
+  } else if (weather.weather[0].main === "Rain") {
+    body.style.backgroundImage = "url('https://i.ibb.co/QKTk28X/rain.jpg')";
+  } else if (weather.weather[0].main === "Clear") {
+    body.style.backgroundImage = "url('https://i.ibb.co/b1K2XsW/clear.jpg')";
+  } else if (weather.weather[0].main === "Smoke") {
+    body.style.backgroundImage = "url('https://i.ibb.co/85wWgCt/smoke.jpg')";
   } else {
-    body.style.backgroundImage = "url('img/clear.jpg')";
+    body.style.backgroundImage = "url('https://i.ibb.co/b1K2XsW/clear.jpg')";
   }
 
   //   console.log(dateFormat);
