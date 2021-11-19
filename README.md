@@ -1,3 +1,3 @@
 # Weather-Now 
-[Visit Now](https://weather-noww.netlify.app/)
+[Visit Here](https://weather-noww.netlify.app/)
 
